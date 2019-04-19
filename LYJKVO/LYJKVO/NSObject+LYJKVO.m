@@ -84,8 +84,6 @@ static const char LYJObservers;
                   forKeys:(NSArray <NSString *>*)keys
 {
     NSMutableSet *observers = objc_getAssociatedObject(self, &LYJObservers);
-//    NSMutableSet *removingItems = [[NSMutableSet alloc] init];
-    
     for (NSString *key in keys) {
         [observers filterUsingPredicate:[NSPredicate predicateWithFormat:@"key != %@",key]];
     }
