@@ -1,5 +1,5 @@
 ##LYJKVO
-参考 (ImplementKVO)[https://github.com/okcomp/ImplementKVO]写的demo
+参考 (!ImplementKVO)[https://github.com/okcomp/ImplementKVO] 写的demo
 
 可以实现
 
