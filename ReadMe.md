@@ -1,4 +1,4 @@
-##LYJKVO
+## LYJKVO
 参考 [ImplementKVO](https://github.com/okcomp/ImplementKVO) 写的demo
 
 可以实现
@@ -11,7 +11,7 @@
 1. 可以移除所有观察自己的对象。
 1. 打印出所有观察自己的对象的信息，包括对象本身，观察的属性，setter方法。
 
-###用法
+### 用法
 ```objc 
 - (IBAction)addObserverSeparatedly:(UIButton *)sender {
     
